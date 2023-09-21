@@ -1,5 +1,5 @@
-English-Tutor-ChatBox
-Falcon LLM Model 
+Executive Counsellor
+Phi_1.5
 
 
 Description:<br>
@@ -55,7 +55,7 @@ Fork the repository.<br>
 
 4. Push your changes to your repository: git push origin feature/new-feature<br>
 
-5. Open a Pull Request in this repository.<br>
+5. Open a Pull Request in this repository.<be>
 
-License
-This project is licensed under the MIT License. Make sure to customize the information accordingly, such as the application name, description, technologies used, and installation and usage steps. You can also add additional sections as needed.
+
+
