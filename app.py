@@ -35,7 +35,7 @@ def factory(human_input):
         llm=HuggingFaceHub(huggingfacehub_api_token=huggingfacehub_api_token, repo_id="tiiuae/falcon-7b-instruct", model_kwargs={"temperature": 0.2}),
         prompt=prompt,
         verbose=True,
-        memory=ConversationBufferWindowMemory(ai_prefix="Executive Counsellor")
+        memory=ConversationBufferWindowMemory(ai_prefix="Counsellor")
     )
     output = llm_chain.predict(human_input=human_input)
 
