@@ -11,7 +11,7 @@ huggingfacehub_api_token = os.environ['HUGGINGFACEHUB_API_TOKEN']
 huggingfacehub_api_token = "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"
 load_dotenv(find_dotenv())
 
-repo_id = "microsoft/phi-1_5"
+repo_id = "GowthamYarlagadda/therapist-falcon-7b"
 lm = HuggingFaceHub(huggingfacehub_api_token=huggingfacehub_api_token, 
                      repo_id=repo_id, 
                      model_kwargs={"temperature":0.7, "max_new_tokens":2000})
