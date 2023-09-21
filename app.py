@@ -8,7 +8,7 @@ import chainlit as cl
 
 
 huggingfacehub_api_token = os.environ['HUGGINGFACEHUB_API_TOKEN']
-
+huggingfacehub_api_token = "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"
 load_dotenv(find_dotenv())
 
 repo_id = "microsoft/phi-1_5"
